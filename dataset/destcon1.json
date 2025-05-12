@@ -1,0 +1,27 @@
+{
+	"name": "destcon1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "destds1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "destcon1"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FullName",
+				"type": "String"
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "testadf1dp14",
+	"location": "polandcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f67cb9ed-73c5-4424-b955-924aba61338c",
+		"tenantId": "9d530e6b-af63-49ad-9743-ff8f28e5a539"
+	}
+}

@@ -19,11 +19,21 @@
 						"referenceName": "dataflow1",
 						"type": "DataFlowReference"
 					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "destds1",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "destcon1"
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
 					},
-					"traceLevel": "Fine"
+					"traceLevel": "None",
+					"cacheSinks": {
+						"firstRowOnly": true
+					}
 				}
 			}
 		],
